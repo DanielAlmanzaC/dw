@@ -1,0 +1,19 @@
+body {
+background-color: #F5F5F5;
+}
+
+.miclase {
+background-color: silver;
+width: 500px;
+padding: 15px;
+border: 15px solid blue;
+margin: 15px;
+outline: 5px solid black;
+}
+
+ul#uno{ list-style-type:none;
+padding:15px;
+border:30px;
+width:90px;
+font-size: 20px;
+text-align: center }
