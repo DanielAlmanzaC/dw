@@ -1,0 +1,88 @@
+body{
+  background: #ddd;
+  font-family: sans-serif;
+}
+
+.container-table{
+  width: 90%;
+  background: white;
+  margin: 50px auto;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 50px;
+  box-shadow: 0 0 20px #333;
+}
+
+.titulo{
+  grid-column-start: 1;
+  grid-column-end: 7;
+
+  background: rgba(40,65,120.1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.9em;
+}
+.header, .item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.item {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+/*Formulario*/
+
+.container-add{
+  width: 90%;
+  margin: 56px auto;
+}
+
+.container__title{
+  margin: 0;
+  padding: 10px;
+  background: rgba(209, 156, 142);
+  color: white;
+  font-size: 1.9cm;
+  text-align: center;
+}
+
+.container__form{
+  background: white;
+  box-shadow: 0 0 20px #333;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__label{
+  font-size: 1.3cm;
+  width: 20%;
+}
+
+.container__input{
+  width: 25%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1cm;
+  padding: 50px;
+}
+
+.container__submit{
+  background: rgba(209, 156, 142);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 15px auto;
+  font-size: 1.1cm;
+  cursor: pointer;
+}  
